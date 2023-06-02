@@ -4,7 +4,7 @@ The relative grading system in universities is a method of evaluating students' 
 
 2. Comparison to peers: After all the students' scores have been obtained, the scores are sorted in descending order to determine the highest and lowest scores in the class. These scores set the benchmark for the grading scale.
 
-3.Determining grade boundaries: The distribution of grades is then applied to the sorted scores. Grade boundaries are established based on the distribution percentages. For example, the top 10% of students may receive an 'A', the next 20% a 'B', and so on.
+3. Determining grade boundaries: The distribution of grades is then applied to the sorted scores. Grade boundaries are established based on the distribution percentages. For example, the top 10% of students may receive an 'A', the next 20% a 'B', and so on.
 
 4. Assigning grades: Each student is assigned a grade based on their position in the sorted list and the determined grade boundaries. Students who perform better than the majority of their peers receive higher grades, while those who perform worse receive lower grades.
 
