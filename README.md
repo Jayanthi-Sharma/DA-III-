@@ -27,7 +27,7 @@ Let's break down the code step by step:
 
 3. The `swapchar` function is a utility function that swaps the values of two strings using two string parameters.
 
-4. The bubbleSort function performs bubble sort on an integer array (arr) and also swaps the corresponding elements in another integer array (index1). The sorting is done in descending order.
+4. The `bubbleSort` function performs bubble sort on an integer array (arr) and also swaps the corresponding elements in another integer array (index1). The sorting is done in descending order.
 
 5. The main function is the entry point of the program.
 
