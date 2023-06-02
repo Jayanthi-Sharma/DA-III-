@@ -27,15 +27,15 @@ Let's break down the code step by step:
 
 3. The `swapchar` function is a utility function that swaps the values of two strings using two string parameters.
 
-4. The `bubbleSort` function performs bubble sort on an integer array (arr) and also swaps the corresponding elements in another integer array (index1). The sorting is done in descending order.
+4. The `bubbleSort` function performs bubble sort on an integer array `arr` and also swaps the corresponding elements in another integer array `index1`. The sorting is done in descending order.
 
 5. The main function is the entry point of the program.
 
-6. It prompts the user to enter the number of students (n).
+6. It prompts the user to enter the number of students `n`.
 
-7. It declares two integer arrays, marks and index1, of size n to store the marks and original indices of the students, respectively.
+7. It declares two integer arrays, `marks` and `index1`, of size n to store the marks and original indices of the students, respectively.
 
-8. It then asks the user to input the marks for each student and stores them in the marks array. It also assigns the original indices to the index1 array.
+8. It then asks the user to input the marks for each student and stores them in the `marks array`. It also assigns the original indices to the `index1 array`.
 
 9. The bubbleSort function is called to sort the marks array in descending order while keeping the corresponding indices in sync.
 
@@ -43,17 +43,17 @@ Let's break down the code step by step:
 
 11. The original indices (after sorting) are displayed to represent the student numbers in increasing order.
 
-12. A standard 10-point relative grading scale is defined using an integer array b, where each element represents the number of students falling into a particular grade range.
+12. A standard 10-point relative grading scale is defined using an integer `array b`, where each element represents the number of students falling into a particular grade range.
 
-13. A string array grade is declared to store the grades corresponding to each student.
+13. A string `array grade` is declared to store the grades corresponding to each student.
 
-14. The grades are assigned to the students using a while loop and the values from the b array. The grades are assigned in the order of "S" (for top 10%), "A" (for next 20%), "B" (for next 30%), "C" (for next 25%+0.5), and "F" (for the remaining 15%-0.5).
+14. The grades are assigned to the students using a `while loop` and the values from the b array. The grades are assigned in the order of "S" (for top 10%), "A" (for next 20%), "B" (for next 30%), "C" (for next 25%+0.5), and "F" (for the remaining 15%-0.5).
 
-15. After assigning the grades, another loop is used to rearrange the grade array in increasing order of student numbers. The index1 array is used as a reference for this reordering, and the swapchar function is called to swap the corresponding grades.
+15. After assigning the grades, another loop is used to rearrange the grade array in increasing order of student numbers. The index1 array is used as a reference for this reordering, and the `swapchar function` is called to swap the corresponding grades.
 
 16. Finally, the grades of each student are displayed according to the increasing order of student numbers.
 
 17. The program ends with a return 0 statement.
 
-In summary, this program takes input for student marks, sorts them in descending order, assigns grades based on a grading scale, and displays the grades in increasing order of student numbers.
+In summary, this program takes input for student marks, sorts them in descending order, assigns grades based on a  10-point relative grading scale, and displays the grades in increasing order of student numbers.
 
