@@ -1,5 +1,5 @@
 # **RELATIVE GRADING SYSTEM**
-##INTRODUCTION
+## INTRODUCTION
 The relative grading system in universities is a method of evaluating students' performance in comparison to their peers. Instead of assessing students' absolute scores or achievements, relative grading ranks students based on their performance relative to the rest of the class. Here's how it typically works:
 1. Distribution of grades: In a relative grading system, grades are assigned based on a predetermined distribution. This distribution can be a bell curve or any other predefined pattern. The purpose is to assign a fixed percentage of students to each grade category.
 
