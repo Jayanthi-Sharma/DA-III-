@@ -49,11 +49,20 @@ Let's break down the code step by step:
 
 14. The grades are assigned to the students using a `while loop` and the values from the b array. The grades are assigned in the order of "S" (for top 10%), "A" (for next 20%), "B" (for next 30%), "C" (for next 25%+0.5), and "F" (for the remaining 15%-0.5).
 
-15. After assigning the grades, another loop is used to rearrange the grade array in increasing order of student numbers. The index1 array is used as a reference for this reordering, and the `swapchar function` is called to swap the corresponding grades.
+15. After assigning the grades, nested `for loop` is used to rearrange the grade array in increasing order of student numbers. The index1 array is used as a reference for this reordering, and the `swapchar function` is called to swap the corresponding grades.
 
 16. Finally, the grades of each student are displayed according to the increasing order of student numbers.
 
 17. The program ends with a return 0 statement.
 
 In summary, this program takes input for student marks, sorts them in descending order, assigns grades based on a  10-point relative grading scale, and displays the grades in increasing order of student numbers.
+
+## CONCLUSION
+The provided C++ program demonstrates a simple grading system for students based on their marks. It sorts the marks in descending order and assigns grades according to a predefined grading scale. The program then displays the grades in increasing order of student numbers.
+
+By utilizing concepts such as arrays, sorting algorithms (specifically bubble sort), and string manipulation, the program effectively handles the input, sorting, and grading processes. It showcases the use of functions to facilitate code modularity and reusability.
+
+The program assumes a standard 10-point relative grading scale, where the distribution of grades is predetermined. It assigns grades to students based on the percentage of marks they achieve relative to the total number of students.
+
+Overall, this program provides a practical example of how to process student data, sort it, and assign grades based on a predefined scale. It can serve as a starting point for further enhancements and customization to fit specific grading systems or additional functionalities.
 
